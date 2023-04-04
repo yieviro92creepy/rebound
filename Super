@@ -2,7 +2,7 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shle
 
 local Window = Rayfield:CreateWindow({
 
-   Name = "YIEV HUB V.1.8 Credit to yieviro92creepy and Rebound",
+   Name = "YIEV HUB V.1.9 Credit to yieviro92creepy and Rebound",
 
    LoadingTitle = "Test",
 
@@ -186,11 +186,11 @@ local Button = Tab:CreateButton({
 
 local Button = Tab:CreateButton({
 
-   Name = "entity gui",
+   Name = "entity gui (bug fixes)",
 
    Callback = function()
 
-   -- T
+   loadstring(game:HttpGet"https://raw.githubusercontent.com/sponguss/Doors-Entity-Replicator/main/source.lua")()
 
    end,
 
